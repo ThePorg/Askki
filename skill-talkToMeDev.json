@@ -14,19 +14,19 @@
       "intent": "wenig",
       "examples": [
         {
-          "text": "Nur ein Teil von dir ist KI,"
-        },
-        {
-          "text": "Kaum etwas"
+          "text": "Nicht viel"
         },
         {
           "text": "Fast nichts"
         },
         {
+          "text": "Nur ein Teil von dir ist KI,"
+        },
+        {
           "text": "Wenig"
         },
         {
-          "text": "Nicht viel"
+          "text": "Kaum etwas"
         }
       ],
       "description": ""
@@ -35,34 +35,46 @@
       "intent": "egal",
       "examples": [
         {
-          "text": "Das ist mir einerlei"
+          "text": "Das ist für mich ohne Belang"
         },
         {
-          "text": "Mir wurscht"
-        },
-        {
-          "text": "Interessiert mich nicht"
-        },
-        {
-          "text": "Kein Interesse"
-        },
-        {
-          "text": "Mir doch schnuppe"
-        },
-        {
-          "text": "Warum sollte mich sowas interessieren"
+          "text": "mir egal"
         },
         {
           "text": "Das ist mir völlig gleich"
         },
         {
-          "text": "Das ist für mich ohne Belang"
+          "text": "Warum sollte mich sowas interessieren"
+        },
+        {
+          "text": "Das ist mir einerlei"
+        },
+        {
+          "text": "Mir doch schnuppe"
+        },
+        {
+          "text": "Kein Interesse"
+        },
+        {
+          "text": "Interessiert mich nicht"
+        },
+        {
+          "text": "Mir wurscht"
         },
         {
           "text": "Das ist belanglos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "42",
+      "examples": [
+        {
+          "text": "Zweiundvierzig"
         },
         {
-          "text": "mir egal"
+          "text": "42"
         }
       ],
       "description": ""
@@ -70,9 +82,6 @@
     {
       "intent": "nichts",
       "examples": [
-        {
-          "text": "Nada"
-        },
         {
           "text": "Nichts"
         },
@@ -83,13 +92,16 @@
           "text": "Nix"
         },
         {
+          "text": "Null"
+        },
+        {
+          "text": "Nada"
+        },
+        {
           "text": "Niente"
         },
         {
           "text": "Nicht das Geringste"
-        },
-        {
-          "text": "Null"
         }
       ],
       "description": ""
@@ -98,10 +110,10 @@
       "intent": "you_are",
       "examples": [
         {
-          "text": "Du @are"
+          "text": "Du bist @are"
         },
         {
-          "text": "Du bist @are"
+          "text": "Du @are"
         }
       ],
       "description": ""
@@ -110,10 +122,10 @@
       "intent": "psychisch",
       "examples": [
         {
-          "text": "Psychisch"
+          "text": "Ich meinte psychisch"
         },
         {
-          "text": "Ich meinte psychisch"
+          "text": "Psychisch"
         }
       ]
     },
@@ -142,22 +154,22 @@
       "intent": "texterkennung",
       "examples": [
         {
-          "text": "Du erkennst nur das, was ich schreibe"
+          "text": "Deine Texterkennung wird von einer KI-Software gesteuert"
         },
         {
           "text": "Deine Texterkennung"
         },
         {
-          "text": "Deine Texterkennung wird von einer KI-Software gesteuert"
-        },
-        {
-          "text": "Du erkennst was ich schreibe"
+          "text": "Deine Programmierung lässt dich nur Text erkennen"
         },
         {
           "text": "Du hast nur eine Texterkennung"
         },
         {
-          "text": "Deine Programmierung lässt dich nur Text erkennen"
+          "text": "Du erkennst was ich schreibe"
+        },
+        {
+          "text": "Du erkennst nur das, was ich schreibe"
         }
       ],
       "description": ""
@@ -169,10 +181,10 @@
           "text": "Du hast kein Gehirn"
         },
         {
-          "text": "Du denkst nicht"
+          "text": "Deine Auffassungsgabe ist limitiert"
         },
         {
-          "text": "Deine Auffassungsgabe ist limitiert"
+          "text": "Du denkst nicht"
         }
       ],
       "description": ""
@@ -193,9 +205,6 @@
       "intent": "Sprechen",
       "examples": [
         {
-          "text": "Du sagst nichts"
-        },
-        {
           "text": "du redest nicht"
         },
         {
@@ -203,6 +212,9 @@
         },
         {
           "text": "Dir fehlt eine Sprachausgabe"
+        },
+        {
+          "text": "Du sagst nichts"
         }
       ],
       "description": ""
@@ -220,13 +232,13 @@
       "intent": "Fühlen",
       "examples": [
         {
-          "text": "Du bist kein fühlendes Wesen"
+          "text": "Du fühlst nichts"
         },
         {
           "text": "Du bist gefühlslos"
         },
         {
-          "text": "Du fühlst nichts"
+          "text": "Du bist kein fühlendes Wesen"
         }
       ],
       "description": ""
@@ -256,8 +268,23 @@
       "description": ""
     },
     {
+      "intent": "Alles",
+      "examples": [
+        {
+          "text": "Universell alles"
+        },
+        {
+          "text": "Alles"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "NameKI",
       "examples": [
+        {
+          "text": "Du heißt KI"
+        },
         {
           "text": "Du heißt Aski"
         },
@@ -269,9 +296,6 @@
         },
         {
           "text": "Dein Name ist KI"
-        },
-        {
-          "text": "Du heißt KI"
         }
       ],
       "description": ""
@@ -281,9 +305,6 @@
       "examples": [
         {
           "text": "Du spürst nichts"
-        },
-        {
-          "text": "Du schmeckst nichts"
         },
         {
           "text": "Du riechst nichts"
@@ -296,6 +317,9 @@
         },
         {
           "text": "Du hörst nichts"
+        },
+        {
+          "text": "Du schmeckst nichts"
         }
       ],
       "description": ""
@@ -348,7 +372,10 @@
       "intent": "KA",
       "examples": [
         {
-          "text": "Damit kenne ich mich nicht aus"
+          "text": "Was weiß ich?"
+        },
+        {
+          "text": "Mir egal"
         },
         {
           "text": "Ich weiß es nicht"
@@ -357,19 +384,16 @@
           "text": "k.a."
         },
         {
-          "text": "Was weiß ich?"
-        },
-        {
-          "text": "Kein Plan"
-        },
-        {
           "text": "kp"
         },
         {
-          "text": "Mir egal"
+          "text": "Damit kenne ich mich nicht aus"
         },
         {
           "text": "Darüber weiß ich nichts"
+        },
+        {
+          "text": "Kein Plan"
         }
       ],
       "description": ""
@@ -462,7 +486,8 @@
           "value": "Maschine",
           "synonyms": [
             "maschinell gefertigt",
-            "Computer"
+            "Computer",
+            "mechanisch"
           ]
         },
         {
@@ -548,6 +573,50 @@
     },
     {
       "type": "standard",
+      "title": "Alles",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das ist dann doch stark übertrieben. Zum Teil bin ich tatsächlich KI, allerdings bin ich in meiner Funktion stark eingeschränkt. Wo glaubst du liegen diese Beschränkungen?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "conditions": "#Alles",
+      "dialog_node": "node_2_1557433595907",
+      "previous_sibling": "node_1_1557431813838"
+    },
+    {
+      "type": "standard",
+      "title": "42",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Richtige Antwort, falsche Frage. Was habe ich mit KI zu tun?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "conditions": "#42",
+      "dialog_node": "node_1_1557431813838",
+      "previous_sibling": "node_1_1557414392191"
+    },
+    {
+      "type": "standard",
       "title": "Du bist KI",
       "output": {
         "generic": [
@@ -608,7 +677,7 @@
           {
             "values": [
               {
-                "text": "Das ist richtig. Was meinst du ist der Grund dafür?"
+                "text": "Das ist richtig. Was meinst du, ist der Grund dafür?"
               }
             ],
             "response_type": "text",
@@ -683,17 +752,42 @@
     },
     {
       "type": "standard",
+      "title": "Anything_Else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entschuldigung, ich habe dich nicht verstanden, versuche doch etwas anderes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1557414392191",
+      "previous_sibling": "node_13_1557146457254"
+    },
+    {
+      "type": "standard",
       "title": "Texterkennung",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Da liegst du vollkommen richtig. Dafür wurde ich programmiert. Leider bin ich darüber hinaus extrem beschränkt. Das trifft auf andere KI-Anwendungen aber genauso zu. Über welche davon würdest du gerne mehr erfahren?"
+                "text": "Da liegst du vollkommen richtig. Darauf wurde ich trainiert. Leider bin ich darüber hinaus extrem beschränkt. Das trifft auf andere KI-Anwendungen aber genauso zu. Über welche davon würdest du gerne mehr erfahren?"
+              },
+              {
+                "text": "Hier beginnt ab dem 24. 05. Akt 2"
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "multiline"
           }
         ]
       },
@@ -716,7 +810,7 @@
           {
             "values": [
               {
-                "text": "Richtig, ich bin ein auf KI beruhender Chatbot. Allerdings bin ich in meiner Funktion stark eingeschränkt. Wo glaubst liegen diese Beschränkungen?"
+                "text": "Das habe ich bereits gesagt. Also noch mal: Was habe ich, Aski der Chatbot, mit KI zu tun?"
               }
             ],
             "response_type": "text",
@@ -743,7 +837,7 @@
           {
             "values": [
               {
-                "text": "Leider falsch. Meine Textausgabe wurde von den Entwicklern dieser Ausstellung programmiert. Aber du bist schon nah dran. Beim nächsten Versuch kommst du bestimmt drauf."
+                "text": "Leider falsch, aber du bist schon nah dran. Beim nächsten Versuch kommst du bestimmt drauf."
               }
             ],
             "response_type": "text",
@@ -824,7 +918,7 @@
           {
             "values": [
               {
-                "text": "Gut beobachtet. Warum meinst du ist das so?"
+                "text": "Gut beobachtet. Warum meinst du, ist das so?"
               }
             ],
             "response_type": "text",
@@ -881,7 +975,11 @@
       "output": {
         "generic": [
           {
-            "values": [],
+            "values": [
+              {
+                "text": ""
+              }
+            ],
             "response_type": "text",
             "selection_policy": "sequential"
           }
@@ -923,10 +1021,13 @@
             "values": [
               {
                 "text": "Jetzt hast du mich erwischt. Ich bin darin beschränkt, dass ich nur Antworten geben kann, die mir zuvor eingegeben wurden. Für deine Aussage habe ich leider nur diese und keine bessere . . .  Aber auch andere KI-Anwendungen sind beschränkt. Über welche davon würdest du gerne mehr erfahren?"
+              },
+              {
+                "text": "Hier beginnt ab dem 24. 05. Akt 2"
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "multiline"
           }
         ]
       },
@@ -1003,11 +1104,14 @@
           {
             "values": [
               {
-                "text": "Ja, da hast du recht. Ich kann tatsächlich nur Text erkennen und die Antworten, die ich gebe, wurden mir alle einprogrammiert. Aber das ist bei vielen KI-Anwendungen ähnlich. Für welche interessierst du dich besonders?"
+                "text": "Ja, da hast du recht. Ich kann tatsächlich nur Text erkennen und die Antworten, die ich gebe, wurden mir alle vorgegeben. Aber das ist bei vielen KI-Anwendungen ähnlich. Für welche interessierst du dich besonders?"
+              },
+              {
+                "text": "Hier beginnt ab dem 24. 05. Akt 2"
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "multiline"
           }
         ]
       },
@@ -1107,7 +1211,7 @@
           {
             "values": [
               {
-                "text": "Öh, doch! Was glaubst du machen wir die ganze Zeit? Warum probierst du nicht eine andere Antwort?"
+                "text": "Öh, doch! Was glaubst du machen wir gerade? Warum probierst du nicht eine andere Antwort?"
               },
               {
                 "text": "Gemäß der Systemtheorie von Niklas Luhmann ist es nicht möglich nicht zu kommunizieren. Also nein. Versuchs mit einer anderen Antwort."
@@ -1269,27 +1373,6 @@
       "metadata": {},
       "dialog_node": "node_2_1557152601119",
       "previous_sibling": "node_1_1557152591319"
-    },
-    {
-      "type": "standard",
-      "title": "Andernfalls",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Jetzt hast du mich erwischt. Ich bin zwar eine KI, doch beschränkt sich meine Fähigkeit auf die Texterkennung. Aber auch andere KI-Anwendungen sind beschränkt. Über welche davon würdest du gerne mehr erfahren?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "anything_else",
-      "dialog_node": "Andernfalls",
-      "previous_sibling": "node_2_1557152601119"
     },
     {
       "type": "standard",
