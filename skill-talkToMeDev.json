@@ -503,7 +503,9 @@
           "type": "synonyms",
           "value": "chatbot",
           "synonyms": [
-            "ein Programm"
+            "ein Programm",
+            "ein bot",
+            "ein chatbot"
           ]
         },
         {
@@ -822,8 +824,8 @@
       "metadata": {},
       "next_step": {
         "behavior": "jump_to",
-        "selector": "user_input",
-        "dialog_node": "node_4_1557141684620"
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
       },
       "conditions": "#chatbot || #you_are && @are:chatbot",
       "dialog_node": "node_13_1557146457254",
