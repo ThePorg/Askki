@@ -2,79 +2,28 @@
   "name": "talkToMeDev",
   "intents": [
     {
-      "intent": "textausgabe",
+      "intent": "maschine",
       "examples": [
         {
-          "text": "Deine Textausgabe"
+          "text": "Du bestehst nur aus 1en und 0en"
+        },
+        {
+          "text": "Du bestehst nur aus 1 und 0"
         }
       ],
       "description": ""
     },
     {
-      "intent": "wenig",
+      "intent": "Emotion",
       "examples": [
         {
-          "text": "Nicht viel"
+          "text": "Du handelst immer rational"
         },
         {
-          "text": "Fast nichts"
+          "text": "Du hast keine Emotionen"
         },
         {
-          "text": "Nur ein Teil von dir ist KI,"
-        },
-        {
-          "text": "Wenig"
-        },
-        {
-          "text": "Kaum etwas"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "egal",
-      "examples": [
-        {
-          "text": "Das ist für mich ohne Belang"
-        },
-        {
-          "text": "mir egal"
-        },
-        {
-          "text": "Das ist mir völlig gleich"
-        },
-        {
-          "text": "Warum sollte mich sowas interessieren"
-        },
-        {
-          "text": "Das ist mir einerlei"
-        },
-        {
-          "text": "Mir doch schnuppe"
-        },
-        {
-          "text": "Kein Interesse"
-        },
-        {
-          "text": "Interessiert mich nicht"
-        },
-        {
-          "text": "Mir wurscht"
-        },
-        {
-          "text": "Das ist belanglos"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "42",
-      "examples": [
-        {
-          "text": "Zweiundvierzig"
-        },
-        {
-          "text": "42"
+          "text": "Du empfindest nichts"
         }
       ],
       "description": ""
@@ -83,37 +32,189 @@
       "intent": "nichts",
       "examples": [
         {
-          "text": "Nichts"
+          "text": "Nix"
         },
         {
           "text": "nothing"
         },
         {
-          "text": "Nix"
+          "text": "Nichts"
         },
         {
-          "text": "Null"
-        },
-        {
-          "text": "Nada"
+          "text": "Nicht das Geringste"
         },
         {
           "text": "Niente"
         },
         {
-          "text": "Nicht das Geringste"
+          "text": "Nada"
+        },
+        {
+          "text": "Null"
         }
       ],
       "description": ""
     },
     {
-      "intent": "you_are",
+      "intent": "Wahrnehmen",
       "examples": [
         {
-          "text": "Du bist @are"
+          "text": "Du siehst nichts"
         },
         {
-          "text": "Du @are"
+          "text": "Du riechst nichts"
+        },
+        {
+          "text": "Du spürst nichts"
+        },
+        {
+          "text": "Du schmeckst nichts"
+        },
+        {
+          "text": "Du hörst nichts"
+        },
+        {
+          "text": "Du nimmst nichts wahr"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "egal",
+      "examples": [
+        {
+          "text": "Mir doch schnuppe"
+        },
+        {
+          "text": "Das ist mir einerlei"
+        },
+        {
+          "text": "Warum sollte mich sowas interessieren"
+        },
+        {
+          "text": "Das ist mir völlig gleich"
+        },
+        {
+          "text": "mir egal"
+        },
+        {
+          "text": "Das ist für mich ohne Belang"
+        },
+        {
+          "text": "Mir wurscht"
+        },
+        {
+          "text": "Das ist belanglos"
+        },
+        {
+          "text": "Interessiert mich nicht"
+        },
+        {
+          "text": "Kein Interesse"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Sprechen",
+      "examples": [
+        {
+          "text": "Du sagst nichts"
+        },
+        {
+          "text": "Dir fehlt eine Sprachausgabe"
+        },
+        {
+          "text": "Du sprichst nicht"
+        },
+        {
+          "text": "du redest nicht"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "physisch",
+      "examples": [
+        {
+          "text": "Physisch"
+        },
+        {
+          "text": "Ich meinte physisch"
+        }
+      ]
+    },
+    {
+      "intent": "wenig",
+      "examples": [
+        {
+          "text": "Wenig"
+        },
+        {
+          "text": "Nur ein Teil von dir ist KI,"
+        },
+        {
+          "text": "Fast nichts"
+        },
+        {
+          "text": "Kaum etwas"
+        },
+        {
+          "text": "Nicht viel"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ausstellung",
+      "examples": [
+        {
+          "text": "In der Ausstellung geht es um KI"
+        },
+        {
+          "text": "Du stehst in dieser Ausstellung"
+        },
+        {
+          "text": "Du stehst in einer Ausstellung über KI"
+        },
+        {
+          "text": "Du stehst hier"
+        },
+        {
+          "text": "Die Ausstellung ist über KI"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Alles",
+      "examples": [
+        {
+          "text": "Universell alles"
+        },
+        {
+          "text": "Alles"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "keinMensch",
+      "examples": [
+        {
+          "text": "Du imitierst nur Menschen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Verstehen",
+      "examples": [
+        {
+          "text": "Du begreifst nicht, was ich schreibe"
+        },
+        {
+          "text": "Du verstehst nicht, was ich schreibe"
         }
       ],
       "description": ""
@@ -130,13 +231,79 @@
       ]
     },
     {
-      "intent": "Verstehen",
+      "intent": "Kommunizieren",
       "examples": [
         {
-          "text": "Du verstehst nicht, was ich schreibe"
+          "text": "Du kommunizierst nicht"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Fühlen",
+      "examples": [
+        {
+          "text": "Du bist gefühlslos"
         },
         {
-          "text": "Du begreifst nicht, was ich schreibe"
+          "text": "Du bist kein fühlendes Wesen"
+        },
+        {
+          "text": "Du fühlst nichts"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "42",
+      "examples": [
+        {
+          "text": "42"
+        },
+        {
+          "text": "Zweiundvierzig"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NameKI",
+      "examples": [
+        {
+          "text": "man nennt dich KI"
+        },
+        {
+          "text": "Du heißt KI"
+        },
+        {
+          "text": "Du heißt Aski"
+        },
+        {
+          "text": "Du hast KI im Namen"
+        },
+        {
+          "text": "Dein Name ist KI"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Klarstellung",
+      "examples": [
+        {
+          "text": "Was bedeutet das?"
+        },
+        {
+          "text": "Kannst du das genauer sagen?"
+        },
+        {
+          "text": "Wie meinst du das?"
+        },
+        {
+          "text": "Was soll das heißen?"
+        },
+        {
+          "text": "Was meinst du damit?"
         }
       ],
       "description": ""
@@ -146,6 +313,81 @@
       "examples": [
         {
           "text": "Du kannst @ability"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "denken",
+      "examples": [
+        {
+          "text": "Du denkst nicht"
+        },
+        {
+          "text": "Deine Auffassungsgabe ist limitiert"
+        },
+        {
+          "text": "Du hast kein Gehirn"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "textausgabe",
+      "examples": [
+        {
+          "text": "Deine Textausgabe"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Hilfe",
+      "examples": [
+        {
+          "text": "Hilfe"
+        },
+        {
+          "text": "Gibts du mir bitte einen Hinweis"
+        },
+        {
+          "text": "Einen Hinweis, bitte"
+        },
+        {
+          "text": "Gib mir einen Hinweis"
+        },
+        {
+          "text": "Ich brauche einen Hinweis"
+        },
+        {
+          "text": "Ic brauche Hilfe"
+        },
+        {
+          "text": "Kannst du mir einen Hinweis geben?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "chatbot",
+      "examples": [
+        {
+          "text": "Du kannst schreiben"
+        },
+        {
+          "text": "Du kannst chatten"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "you_are",
+      "examples": [
+        {
+          "text": "Du @are"
+        },
+        {
+          "text": "Du bist @are"
         }
       ],
       "description": ""
@@ -175,207 +417,10 @@
       "description": ""
     },
     {
-      "intent": "denken",
-      "examples": [
-        {
-          "text": "Du hast kein Gehirn"
-        },
-        {
-          "text": "Deine Auffassungsgabe ist limitiert"
-        },
-        {
-          "text": "Du denkst nicht"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "maschine",
-      "examples": [
-        {
-          "text": "Du bestehst nur aus 1 und 0"
-        },
-        {
-          "text": "Du bestehst nur aus 1en und 0en"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Sprechen",
-      "examples": [
-        {
-          "text": "du redest nicht"
-        },
-        {
-          "text": "Du sprichst nicht"
-        },
-        {
-          "text": "Dir fehlt eine Sprachausgabe"
-        },
-        {
-          "text": "Du sagst nichts"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "keinMensch",
-      "examples": [
-        {
-          "text": "Du imitierst nur Menschen"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Fühlen",
-      "examples": [
-        {
-          "text": "Du fühlst nichts"
-        },
-        {
-          "text": "Du bist gefühlslos"
-        },
-        {
-          "text": "Du bist kein fühlendes Wesen"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Kommunizieren",
-      "examples": [
-        {
-          "text": "Du kommunizierst nicht"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Emotion",
-      "examples": [
-        {
-          "text": "Du handelst immer rational"
-        },
-        {
-          "text": "Du empfindest nichts"
-        },
-        {
-          "text": "Du hast keine Emotionen"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Alles",
-      "examples": [
-        {
-          "text": "Universell alles"
-        },
-        {
-          "text": "Alles"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "NameKI",
-      "examples": [
-        {
-          "text": "Du heißt KI"
-        },
-        {
-          "text": "Du heißt Aski"
-        },
-        {
-          "text": "Du hast KI im Namen"
-        },
-        {
-          "text": "man nennt dich KI"
-        },
-        {
-          "text": "Dein Name ist KI"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Wahrnehmen",
-      "examples": [
-        {
-          "text": "Du spürst nichts"
-        },
-        {
-          "text": "Du riechst nichts"
-        },
-        {
-          "text": "Du nimmst nichts wahr"
-        },
-        {
-          "text": "Du siehst nichts"
-        },
-        {
-          "text": "Du hörst nichts"
-        },
-        {
-          "text": "Du schmeckst nichts"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Ausstellung",
-      "examples": [
-        {
-          "text": "In der Ausstellung geht es um KI"
-        },
-        {
-          "text": "Die Ausstellung ist über KI"
-        },
-        {
-          "text": "Du stehst hier"
-        },
-        {
-          "text": "Du stehst in einer Ausstellung über KI"
-        },
-        {
-          "text": "Du stehst in dieser Ausstellung"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "chatbot",
-      "examples": [
-        {
-          "text": "Du kannst schreiben"
-        },
-        {
-          "text": "Du kannst chatten"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "physisch",
-      "examples": [
-        {
-          "text": "Physisch"
-        },
-        {
-          "text": "Ich meinte physisch"
-        }
-      ]
-    },
-    {
       "intent": "KA",
       "examples": [
         {
           "text": "Was weiß ich?"
-        },
-        {
-          "text": "Mir egal"
         },
         {
           "text": "Ich weiß es nicht"
@@ -394,80 +439,15 @@
         },
         {
           "text": "Kein Plan"
+        },
+        {
+          "text": "Keine Ahnungs"
         }
       ],
       "description": ""
     }
   ],
   "entities": [
-    {
-      "entity": "ability",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "Texterkennung",
-          "synonyms": [
-            "erkennen, was ich schreibe",
-            "nur Texte erkennen"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "nicht denken",
-          "synonyms": [
-            "nicht nachdenken",
-            "nicht grübeln",
-            "nicht philosophieren"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "nicht empfinden",
-          "synonyms": [
-            "nicht lieben",
-            "nicht freuen",
-            "nicht emotional werden",
-            "nicht wütend werden"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "nicht sprechen",
-          "synonyms": [
-            "nicht reden",
-            "nichts sagen"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "nichts wahrnehmen",
-          "synonyms": [
-            "nicht wahrnehemen",
-            "nicht sehen",
-            "nicht hören",
-            "nicht riechen",
-            "nicht schmecken",
-            "nicht spüren"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "nicht verstehen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "nicht fühlen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "nicht kommunizieren",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
     {
       "entity": "are",
       "values": [
@@ -529,6 +509,74 @@
         }
       ],
       "fuzzy_match": true
+    },
+    {
+      "entity": "ability",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nicht fühlen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Texterkennung",
+          "synonyms": [
+            "erkennen, was ich schreibe",
+            "nur Texte erkennen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nicht kommunizieren",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nicht denken",
+          "synonyms": [
+            "nicht nachdenken",
+            "nicht grübeln",
+            "nicht philosophieren"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nicht empfinden",
+          "synonyms": [
+            "nicht lieben",
+            "nicht freuen",
+            "nicht emotional werden",
+            "nicht wütend werden"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nicht sprechen",
+          "synonyms": [
+            "nicht reden",
+            "nichts sagen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nichts wahrnehmen",
+          "synonyms": [
+            "nicht wahrnehemen",
+            "nicht sehen",
+            "nicht hören",
+            "nicht riechen",
+            "nicht schmecken",
+            "nicht spüren"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nicht verstehen",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
     }
   ],
   "language": "de",
@@ -540,6 +588,175 @@
   },
   "description": "",
   "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das kannst du mir nicht erzählen. Du bist hier in einer Ausstellung über KI. Versuche es nochmal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557758095869",
+      "context": {
+        "KA": 1
+      },
+      "metadata": {},
+      "conditions": "#KA",
+      "dialog_node": "node_3_1557758130455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das kannst du besser. Warum denkst du nicht nochmal darüber nach?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_14_1557147463332",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_12_1557763000435",
+      "previous_sibling": "node_11_1557762995076"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nochmals: Du bist in einer Ausstellung über KI. Was könnte ich dann wohl sein?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_14_1557147463332",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_14_1557763052598",
+      "previous_sibling": "node_13_1557763041301"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nun gut, dann verrate ich es dir: ich bin eine KI, allerdings eine sehr eingeschränkte. Kannst du erraten wie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1557147463332",
+      "disabled": true,
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557145639198"
+      },
+      "dialog_node": "node_15_1557763063238",
+      "previous_sibling": "node_14_1557763052598"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Du musst aus den anderen Räumen doch irgendetwas mitgenommen haben, oder? Probiers nochmal!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_14_1557147463332",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_13_1557763041301",
+      "previous_sibling": "node_12_1557763000435"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das kannst du mir nicht erzählen. Du bist hier in einer Ausstellung über KI. Versuche es nochmal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1557147463332",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_11_1557762995076"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Du musst aus den anderen Räumen doch irgendetwas mitgenommen haben, oder? Probiers nochmal!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1557761934424",
+      "metadata": {},
+      "conditions": "$KA:1",
+      "dialog_node": "node_8_1557762153408"
+    },
+    {
+      "type": "standard",
+      "title": "A2F1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557152591319",
+      "metadata": {},
+      "dialog_node": "node_6_1557145639198"
+    },
     {
       "type": "standard",
       "title": "A1F2",
@@ -572,720 +789,6 @@
       "parent": "node_17_1557148633901",
       "metadata": {},
       "dialog_node": "node_1_1557144222681"
-    },
-    {
-      "type": "standard",
-      "title": "Alles",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das ist dann doch stark übertrieben. Zum Teil bin ich tatsächlich KI, allerdings bin ich in meiner Funktion stark eingeschränkt. Wo glaubst du liegen diese Beschränkungen?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "conditions": "#Alles",
-      "dialog_node": "node_2_1557433595907",
-      "previous_sibling": "node_1_1557431813838"
-    },
-    {
-      "type": "standard",
-      "title": "42",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Richtige Antwort, falsche Frage. Was habe ich mit KI zu tun?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "conditions": "#42",
-      "dialog_node": "node_1_1557431813838",
-      "previous_sibling": "node_1_1557414392191"
-    },
-    {
-      "type": "standard",
-      "title": "Du bist KI",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Da hast du recht. Aber ich würde keine zu hohen Erwartungen an mich stellen, da ich doch etwas eingeschränkt bin. Wo glaubst du liegen diese Beschränkungen?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#you_are && @are:KI",
-      "dialog_node": "node_1_1557144520105",
-      "previous_sibling": "node_3_1557141541567"
-    },
-    {
-      "type": "standard",
-      "title": "Egal",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das kannst du mir nicht erzählen. Du bist hier in einer Ausstellung über KI. Versuche es nochmal."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#egal",
-      "dialog_node": "node_3_1557141541567",
-      "previous_sibling": "node_1_1557140853342"
-    },
-    {
-      "type": "standard",
-      "title": "Ort",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das ist richtig. Was meinst du, ist der Grund dafür?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#Ausstellung || #you_are && @are:here",
-      "dialog_node": "node_4_1557144914871",
-      "previous_sibling": "node_3_1557144831166"
-    },
-    {
-      "type": "standard",
-      "title": "Kein Mensch",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ja, das ist wahr. Allerdings hat das noch nicht so viel mit KI zu tun. Probiere es nochmal."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#keinMensch || #you_are && @are:kmensch",
-      "dialog_node": "node_10_1557146083932",
-      "previous_sibling": "node_9_1557145923806"
-    },
-    {
-      "type": "standard",
-      "title": "Wenig",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das ist eine äußert unpräzise Antwort. Kannst du etwas genauer werden?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#wenig || #you_are && @are:wenig",
-      "dialog_node": "node_11_1557146284096",
-      "previous_sibling": "node_10_1557146083932"
-    },
-    {
-      "type": "standard",
-      "title": "Anything_Else",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Entschuldigung, ich habe dich nicht verstanden, versuche doch etwas anderes."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "conditions": "anything_else",
-      "dialog_node": "node_1_1557414392191",
-      "previous_sibling": "node_13_1557146457254"
-    },
-    {
-      "type": "standard",
-      "title": "Texterkennung",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Da liegst du vollkommen richtig. Darauf wurde ich trainiert. Leider bin ich darüber hinaus extrem beschränkt. Das trifft auf andere KI-Anwendungen aber genauso zu. Über welche davon würdest du gerne mehr erfahren?"
-              },
-              {
-                "text": "Hier beginnt ab dem 24. 05. Akt 2"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "multiline"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_6_1557145639198"
-      },
-      "conditions": "#texterkennung || #you_can && @ability:Texterkennung",
-      "dialog_node": "node_5_1557145373813",
-      "previous_sibling": "node_4_1557144914871"
-    },
-    {
-      "type": "standard",
-      "title": "Chatbot",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das habe ich bereits gesagt. Also noch mal: Was habe ich, Aski der Chatbot, mit KI zu tun?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#chatbot || #you_are && @are:chatbot",
-      "dialog_node": "node_13_1557146457254",
-      "previous_sibling": "node_11_1557146284096"
-    },
-    {
-      "type": "standard",
-      "title": "Textausgabe",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Leider falsch, aber du bist schon nah dran. Beim nächsten Versuch kommst du bestimmt drauf."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#textausgabe",
-      "dialog_node": "node_8_1557145879200",
-      "previous_sibling": "node_5_1557145373813"
-    },
-    {
-      "type": "standard",
-      "title": "Maschine",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Nicht ganz, ich bin mehr als das. Versuche es erneut."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#maschine || #you_are && @are:Maschine",
-      "dialog_node": "node_9_1557145923806",
-      "previous_sibling": "node_8_1557145879200"
-    },
-    {
-      "type": "standard",
-      "title": "Nichts",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Glaubst du das wirklich? Immerhin geht es in dieser Ausstellung um KI. Probiers noch mal."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#nichts",
-      "dialog_node": "node_2_1557144649962",
-      "previous_sibling": "node_1_1557144520105"
-    },
-    {
-      "type": "standard",
-      "title": "Name",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Gut beobachtet. Warum meinst du, ist das so?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#NameKI",
-      "dialog_node": "node_3_1557144831166",
-      "previous_sibling": "node_2_1557144649962"
-    },
-    {
-      "type": "standard",
-      "title": "KA",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das kannst du besser. Warum denkst du nicht nochmal darüber nach?"
-              },
-              {
-                "text": "Nochmals: Du bist in einer Ausstellung über KI. Was könnte ich dann wohl sein?"
-              },
-              {
-                "text": "Nun gut, dann verrate ich es dir: ich bin eine KI, allerdings eine sehr eingeschränkte. Kannst du erraten wie?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557144222681",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557144222681"
-      },
-      "conditions": "#KA",
-      "dialog_node": "node_1_1557140853342"
-    },
-    {
-      "type": "standard",
-      "title": "A2F1",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": ""
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557152591319",
-      "metadata": {},
-      "dialog_node": "node_6_1557145639198"
-    },
-    {
-      "type": "standard",
-      "title": "Verstehen",
-      "output": {
-        "generic": [
-          {
-            "values": [],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#Verstehen || #you_can && @ability:(nicht verstehen)",
-      "dialog_node": "node_7_1557153210501",
-      "previous_sibling": "node_6_1557153151059"
-    },
-    {
-      "type": "standard",
-      "title": "Anything Else",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Jetzt hast du mich erwischt. Ich bin darin beschränkt, dass ich nur Antworten geben kann, die mir zuvor eingegeben wurden. Für deine Aussage habe ich leider nur diese und keine bessere . . .  Aber auch andere KI-Anwendungen sind beschränkt. Über welche davon würdest du gerne mehr erfahren?"
-              },
-              {
-                "text": "Hier beginnt ab dem 24. 05. Akt 2"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "multiline"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_6_1557145639198"
-      },
-      "conditions": "anything_else",
-      "dialog_node": "node_13_1557154259861",
-      "previous_sibling": "node_12_1557154069678"
-    },
-    {
-      "type": "standard",
-      "title": "Egal",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ach komm, das kannst du mir nicht erzählen. Du bist hier in einer Ausstellung über KI. Versuche es nochmal."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#egal",
-      "dialog_node": "node_15_1557148309259",
-      "previous_sibling": "node_14_1557147463332"
-    },
-    {
-      "type": "standard",
-      "title": "Wahrnehmen",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das stimmt, ich habe keine Hardware dafür. Ich meinte aber eine Beschränktheit meiner Software. Was könnte das sein?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#Wahrnehmen || #you_can && @ability:(nichts wahrnehmen)",
-      "dialog_node": "node_6_1557153151059",
-      "previous_sibling": "node_5_1557153095129"
-    },
-    {
-      "type": "standard",
-      "title": "Texterkennung",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ja, da hast du recht. Ich kann tatsächlich nur Text erkennen und die Antworten, die ich gebe, wurden mir alle vorgegeben. Aber das ist bei vielen KI-Anwendungen ähnlich. Für welche interessierst du dich besonders?"
-              },
-              {
-                "text": "Hier beginnt ab dem 24. 05. Akt 2"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "multiline"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_6_1557145639198"
-      },
-      "conditions": "#texterkennung || #you_can && @ability:Texterkennung",
-      "dialog_node": "node_16_1557148426758",
-      "previous_sibling": "node_15_1557148309259"
-    },
-    {
-      "type": "standard",
-      "title": "Denken",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das stimmt. Ich kann nicht wie ein Mensch denken, aber ich bin durchaus in der Lage logische Schlussfolgerungen zu ziehen. Dabei bin ich allerdings stark eingeschränkt. Was genau könnte diese Beschränkung sein?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#denken || #you_can && @ability:(nicht denken)",
-      "dialog_node": "node_3_1557152671787",
-      "previous_sibling": "node_16_1557148426758"
-    },
-    {
-      "type": "standard",
-      "title": "Emotionen",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ich kann tatsächlich keinerlei Emotionen empfinden. Die Beschränktheit, die ich meinte, betrifft aber meine Funktion. Wie meinst du bin ich darin eingeschränkt?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#Emotion || #you_can && @ability:(nicht empfinden)",
-      "dialog_node": "node_4_1557152927631",
-      "previous_sibling": "node_3_1557152671787"
-    },
-    {
-      "type": "standard",
-      "title": "Sprechen",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Das stimmt, ich habe keine Hardware dafür. Ich meinte aber eine Beschränktheit meiner Software. Was könnte das sein?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#Sprechen || #you_can && @ability:(nicht sprechen)",
-      "dialog_node": "node_5_1557153095129",
-      "previous_sibling": "node_4_1557152927631"
-    },
-    {
-      "type": "standard",
-      "title": "Kommunizieren",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Öh, doch! Was glaubst du machen wir gerade? Warum probierst du nicht eine andere Antwort?"
-              },
-              {
-                "text": "Gemäß der Systemtheorie von Niklas Luhmann ist es nicht möglich nicht zu kommunizieren. Also nein. Versuchs mit einer anderen Antwort."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#Kommunizieren || #you_can && @ability:(nicht kommunizieren)",
-      "dialog_node": "node_12_1557154069678",
-      "previous_sibling": "node_8_1557153288750"
-    },
-    {
-      "type": "standard",
-      "title": "Fühlen",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Meinst du physisch oder psychisch?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "conditions": "#Fühlen || #you_can && @ability:(nicht fühlen)",
-      "dialog_node": "node_8_1557153288750",
-      "previous_sibling": "node_7_1557153210501"
-    },
-    {
-      "type": "standard",
-      "title": "KA",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Aber du hast doch bestimmt eine Vermutung. Rate doch einfach mal."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1557141684620",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_4_1557141684620"
-      },
-      "conditions": "#KA",
-      "dialog_node": "node_14_1557147463332"
     },
     {
       "type": "standard",
@@ -1360,11 +863,885 @@
       "dialog_node": "node_9_1557153489575"
     },
     {
-      "type": "folder",
-      "title": "A2",
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_3_1557141541567",
+      "disabled": true,
       "metadata": {},
-      "dialog_node": "node_1_1557152591319",
-      "previous_sibling": "node_17_1557148633901"
+      "dialog_node": "node_3_1557742053035",
+      "previous_sibling": "node_2_1557742051217"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_3_1557141541567",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1557742051217",
+      "previous_sibling": "node_1_1557742039325"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das kannst du mir nicht erzählen. Du bist hier in einer Ausstellung über KI. Versuche es nochmal."
+              },
+              {
+                "text": "Das kannst du besser. Warum denkst du nicht nochmal darüber nach?"
+              },
+              {
+                "text": "Du musst aus den anderen Räumen doch irgendetwas mitgenommen haben, oder? Probiers nochmal!"
+              },
+              {
+                "text": "Nochmals: Du bist in einer Ausstellung über KI. Was könnte ich dann wohl sein?"
+              },
+              {
+                "text": "Nun gut, dann verrate ich es dir: ich bin eine KI, allerdings eine sehr eingeschränkte. Kannst du erraten wie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1557141541567",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_1_1557742039325"
+    },
+    {
+      "type": "standard",
+      "title": "Wenig",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das ist eine äußert unpräzise Antwort. Kannst du etwas genauer werden?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#wenig || #you_are && @are:wenig",
+      "dialog_node": "node_11_1557146284096",
+      "previous_sibling": "node_10_1557146083932"
+    },
+    {
+      "type": "standard",
+      "title": "KA1",
+      "output": {},
+      "parent": "node_1_1557144222681",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#KA && $KA",
+      "dialog_node": "node_7_1557761934424",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1557758095869"
+    },
+    {
+      "type": "standard",
+      "title": "Alles",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das ist dann doch stark übertrieben. Zum Teil bin ich tatsächlich KI, allerdings bin ich in meiner Funktion stark eingeschränkt. Wo glaubst du liegen diese Beschränkungen?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "conditions": "#Alles",
+      "dialog_node": "node_2_1557433595907",
+      "previous_sibling": "node_1_1557431813838"
+    },
+    {
+      "type": "standard",
+      "title": "Chatbot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das habe ich bereits gesagt. Also noch mal: Was habe ich, Aski der Chatbot, mit KI zu tun?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#chatbot || #you_are && @are:chatbot",
+      "dialog_node": "node_13_1557146457254",
+      "previous_sibling": "node_11_1557146284096"
+    },
+    {
+      "type": "standard",
+      "title": "Ort",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das ist richtig. Was meinst du, ist der Grund dafür?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#Ausstellung || #you_are && @are:here",
+      "dialog_node": "node_4_1557144914871",
+      "previous_sibling": "node_3_1557144831166"
+    },
+    {
+      "type": "standard",
+      "title": "Textausgabe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Leider falsch, aber du bist schon nah dran. Beim nächsten Versuch kommst du bestimmt drauf."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#textausgabe",
+      "dialog_node": "node_8_1557145879200",
+      "previous_sibling": "node_5_1557145373813"
+    },
+    {
+      "type": "standard",
+      "title": "42",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Richtige Antwort, falsche Frage. Was habe ich mit KI zu tun?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "conditions": "#42",
+      "dialog_node": "node_1_1557431813838",
+      "previous_sibling": "node_1_1557414392191"
+    },
+    {
+      "type": "standard",
+      "title": "Egal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das kannst du mir nicht erzählen. Du bist hier in einer Ausstellung über KI. Versuche es nochmal."
+              },
+              {
+                "text": "Das kannst du besser. Warum denkst du nicht nochmal darüber nach?"
+              },
+              {
+                "text": "Du musst aus den anderen Räumen doch irgendetwas mitgenommen haben, oder? Probiers nochmal!"
+              },
+              {
+                "text": "Nochmals: Du bist in einer Ausstellung über KI. Was könnte ich dann wohl sein?"
+              },
+              {
+                "text": "Nun gut, dann verrate ich es dir: ich bin eine KI, allerdings eine sehr eingeschränkte. Kannst du erraten wie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#egal",
+      "dialog_node": "node_3_1557141541567",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1557761934424"
+    },
+    {
+      "type": "standard",
+      "title": "Nachfrage",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ich würde gerne von dir wissen, welche Verbindung ich mit KI habe. Die Antwort ist ziemlich naheliegend."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#Klarstellung",
+      "dialog_node": "node_1_1557751517480",
+      "previous_sibling": "node_2_1557433595907"
+    },
+    {
+      "type": "standard",
+      "title": "Du bist KI",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Da hast du recht. Aber ich würde keine zu hohen Erwartungen an mich stellen, da ich doch etwas eingeschränkt bin. Wo glaubst du liegen diese Beschränkungen?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#you_are && @are:KI",
+      "dialog_node": "node_1_1557144520105",
+      "previous_sibling": "node_3_1557141541567"
+    },
+    {
+      "type": "standard",
+      "title": "Maschine",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nicht ganz, ich bin mehr als das. Versuche es erneut."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#maschine || #you_are && @are:Maschine",
+      "dialog_node": "node_9_1557145923806",
+      "previous_sibling": "node_8_1557145879200"
+    },
+    {
+      "type": "standard",
+      "title": "Texterkennung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Da liegst du vollkommen richtig. Darauf wurde ich trainiert. Leider bin ich darüber hinaus extrem beschränkt. Das trifft auf andere KI-Anwendungen aber genauso zu. Über welche davon würdest du gerne mehr erfahren?"
+              },
+              {
+                "text": "Hier beginnt ab dem 24. 05. Akt 2"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557145639198"
+      },
+      "conditions": "#texterkennung || #you_can && @ability:Texterkennung",
+      "dialog_node": "node_5_1557145373813",
+      "previous_sibling": "node_4_1557144914871"
+    },
+    {
+      "type": "standard",
+      "title": "Anything_Else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entschuldigung, ich habe dich nicht verstanden, versuche doch etwas anderes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1557414392191",
+      "previous_sibling": "node_13_1557146457254"
+    },
+    {
+      "type": "standard",
+      "title": "Name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gut beobachtet. Warum meinst du, ist das so?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#NameKI",
+      "dialog_node": "node_3_1557144831166",
+      "previous_sibling": "node_2_1557144649962"
+    },
+    {
+      "type": "standard",
+      "title": "Nichts",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glaubst du das wirklich? Immerhin geht es in dieser Ausstellung um KI. Probiers noch mal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#nichts",
+      "dialog_node": "node_2_1557144649962",
+      "previous_sibling": "node_1_1557144520105"
+    },
+    {
+      "type": "standard",
+      "title": "Kein Mensch",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ja, das ist wahr. Allerdings hat das noch nicht so viel mit KI zu tun. Probiere es nochmal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#keinMensch || #you_are && @are:kmensch",
+      "dialog_node": "node_10_1557146083932",
+      "previous_sibling": "node_9_1557145923806"
+    },
+    {
+      "type": "standard",
+      "title": "Hilfe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Du musst aus den anderen Räumen doch irgendetwas mitgenommen haben, oder? Probiers nochmal!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557144222681",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#Hilfe",
+      "dialog_node": "node_2_1557751632226",
+      "previous_sibling": "node_1_1557751517480"
+    },
+    {
+      "type": "standard",
+      "title": "KA",
+      "output": {},
+      "parent": "node_1_1557144222681",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557144222681"
+      },
+      "conditions": "#KA",
+      "dialog_node": "node_2_1557758095869",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jetzt hast du mich erwischt. Ich bin darin beschränkt, dass ich nur Antworten geben kann, die mir zuvor eingegeben wurden. Für deine Aussage habe ich leider nur diese und keine bessere . . .  Aber auch andere KI-Anwendungen sind beschränkt. Über welche davon würdest du gerne mehr erfahren?"
+              },
+              {
+                "text": "Hier beginnt ab dem 24. 05. Akt 2"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557145639198"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_13_1557154259861",
+      "previous_sibling": "node_12_1557154069678"
+    },
+    {
+      "type": "standard",
+      "title": "Texterkennung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ja, da hast du recht. Ich kann tatsächlich nur Text erkennen und die Antworten, die ich gebe, wurden mir alle vorgegeben. Aber das ist bei vielen KI-Anwendungen ähnlich. Für welche interessierst du dich besonders?"
+              },
+              {
+                "text": "Hier beginnt ab dem 24. 05. Akt 2"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557145639198"
+      },
+      "conditions": "#texterkennung || #you_can && @ability:Texterkennung",
+      "dialog_node": "node_16_1557148426758",
+      "previous_sibling": "node_15_1557148309259"
+    },
+    {
+      "type": "standard",
+      "title": "Wahrnehmen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das stimmt, ich habe keine Hardware dafür. Ich meinte aber eine Beschränktheit meiner Software. Was könnte das sein?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#Wahrnehmen || #you_can && @ability:(nichts wahrnehmen)",
+      "dialog_node": "node_6_1557153151059",
+      "previous_sibling": "node_5_1557153095129"
+    },
+    {
+      "type": "standard",
+      "title": "Denken",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das stimmt. Ich kann nicht wie ein Mensch denken, aber ich bin durchaus in der Lage logische Schlussfolgerungen zu ziehen. Dabei bin ich allerdings stark eingeschränkt. Was genau könnte diese Beschränkung sein?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#denken || #you_can && @ability:(nicht denken)",
+      "dialog_node": "node_3_1557152671787",
+      "previous_sibling": "node_16_1557148426758"
+    },
+    {
+      "type": "standard",
+      "title": "Sprechen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das stimmt, ich habe keine Hardware dafür. Ich meinte aber eine Beschränktheit meiner Software. Was könnte das sein?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#Sprechen || #you_can && @ability:(nicht sprechen)",
+      "dialog_node": "node_5_1557153095129",
+      "previous_sibling": "node_4_1557152927631"
+    },
+    {
+      "type": "standard",
+      "title": "Egal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ach komm, das kannst du mir nicht erzählen. Du bist hier in einer Ausstellung über KI. Versuche es nochmal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#egal",
+      "dialog_node": "node_15_1557148309259",
+      "previous_sibling": "node_14_1557147463332"
+    },
+    {
+      "type": "standard",
+      "title": "Nachfrage",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es bedeutet, dass meine Fähigkeiten als Chatbot stark beschränkt sind. Ich würde gerne von dir wissen, auf welchem Gebiet."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#Klarstellung",
+      "dialog_node": "node_9_1557762615362",
+      "previous_sibling": "node_13_1557154259861"
+    },
+    {
+      "type": "standard",
+      "title": "Kommunizieren",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Öh, doch! Was glaubst du machen wir gerade? Warum probierst du nicht eine andere Antwort?"
+              },
+              {
+                "text": "Gemäß der Systemtheorie von Niklas Luhmann ist es nicht möglich nicht zu kommunizieren. Also nein. Versuchs mit einer anderen Antwort."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#Kommunizieren || #you_can && @ability:(nicht kommunizieren)",
+      "dialog_node": "node_12_1557154069678",
+      "previous_sibling": "node_8_1557153288750"
+    },
+    {
+      "type": "standard",
+      "title": "Hilfe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gut, ich gebe dir einen Hinweis: es betrifft meine Fähigkeit mich mit dir zu unterhalten."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#Hilfe",
+      "dialog_node": "node_10_1557762702347",
+      "previous_sibling": "node_9_1557762615362"
+    },
+    {
+      "type": "standard",
+      "title": "Emotionen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ich kann tatsächlich keinerlei Emotionen empfinden. Die Beschränktheit, die ich meinte, betrifft aber meine Funktion. Wie meinst du bin ich darin eingeschränkt?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#Emotion || #you_can && @ability:(nicht empfinden)",
+      "dialog_node": "node_4_1557152927631",
+      "previous_sibling": "node_3_1557152671787"
+    },
+    {
+      "type": "standard",
+      "title": "Verstehen",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#Verstehen || #you_can && @ability:(nicht verstehen)",
+      "dialog_node": "node_7_1557153210501",
+      "previous_sibling": "node_6_1557153151059"
+    },
+    {
+      "type": "standard",
+      "title": "Fühlen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Meinst du physisch oder psychisch?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {},
+      "conditions": "#Fühlen || #you_can && @ability:(nicht fühlen)",
+      "dialog_node": "node_8_1557153288750",
+      "previous_sibling": "node_7_1557153210501"
+    },
+    {
+      "type": "standard",
+      "title": "KA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das kannst du mir nicht erzählen. Du bist hier in einer Ausstellung über KI. Versuche es nochmal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557141684620",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557141684620"
+      },
+      "conditions": "#KA",
+      "dialog_node": "node_14_1557147463332",
+      "digress_out": "allow_all"
     },
     {
       "type": "folder",
@@ -1379,6 +1756,13 @@
       "metadata": {},
       "dialog_node": "node_2_1557152601119",
       "previous_sibling": "node_1_1557152591319"
+    },
+    {
+      "type": "folder",
+      "title": "A2",
+      "metadata": {},
+      "dialog_node": "node_1_1557152591319",
+      "previous_sibling": "node_17_1557148633901"
     },
     {
       "type": "standard",
@@ -1406,8 +1790,11 @@
       "dialog_node": "Willkommen"
     }
   ],
-  "workspace_id": "d507c2ca-b6c7-4ed1-b872-d863deb3d8f6",
+  "workspace_id": "820af925-0a87-42e7-a849-c0fc3b1d595a",
   "counterexamples": [
+    {
+      "text": "Du"
+    },
     {
       "text": "Du bist"
     },
@@ -1434,6 +1821,9 @@
     },
     {
       "text": "Du kannst bäume pflanzen"
+    },
+    {
+      "text": "was"
     }
   ],
   "system_settings": {
